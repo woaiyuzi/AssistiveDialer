@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Dialer</string>
+    <string name="text_request_permissions">申请权限</string>
+    <string name="default_permissions_rationale">应用需要以上权限</string>
+    <string name="text_empty_contact_list">没有联系人</string>
+    <string name="text_contact_manager">联系人管理</string>
+    <string name="settings_text">设置</string>
+    <string name="text_empty_contact_and_click_add">没有联系人，点击添加</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="text_pick_contact">选择联系人</string>
+    <string name="text_submit">完成(%s)</string>
+    <string name="title_read_contacts">读取联系人</string>
+    <string name="title_call_phone">拨打电话</string>
+    <string name="failed_to_load_contacts">加载失败</string>
+    <string name="permissions_denied">权限不足</string>
+    <string name="description_read_contacts">查询联系人</string>
+    <string name="description_call_phone">拨打电话</string>
+    <string name="contact_load_failed">加载失败</string>
+    <string name="contact_save_failed">联系人添加失败</string>
+    <string name="contact_update_failed">联系人更新失败</string>
+    <string name="contact_delete_failed">联系人删除失败</string>
+    <string name="contact_empty_add_text">暂无联系人，点击添加</string>
+    <string name="avatar_content_description">头像</string>
+    <string name="permission_rationale">要继续操作，请授予 %1$s 使用您%2$s的权限</string>
+    <string name="permission_request">授予权限</string>
+    <string name="permission_open_app_settings">跳转\"设置\"</string>
+    <string name="contact_deleted">联系人已删除</string>
+    <string name="contact_saved">%1$s个联系人已添加</string>
+    <string name="contact_updated">%1$s个联系人已更新</string>
+    <string name="contact_picker_title">选择联系人</string>
+    <string name="contact_picker_finish">完成(%1$s)</string>
+    <string name="contact_empty">暂无联系人</string>
+    <string name="contact_voice_call">语音通话</string>
+    <string name="contact_video_call">视频通话</string>
+    <string name="contact_manager_title">联系人管理(%1$s)</string>
+    <string name="contact_add">添加联系人</string>
+    <string name="contact_empty_info">联系人走丢了~</string>
+    <string name="contact_delete">删除联系人</string>
+    <string name="contact_operation_failed">操作失败</string>
+    <string name="contact_detail_empty">联系人走丢了~</string>
+    <string name="help_title">使用帮助</string>
+    <string name="back">返回</string>
+    <string name="settings_tit">设置</string>
+    <string name="settings_title">设置</string>
+
+</resources>
