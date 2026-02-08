@@ -49,7 +49,7 @@ fun Context.setCallVolume(
 ) {
     val audioManager = getSystemService(Context.AUDIO_SERVICE) as AudioManager
     val currentVolume = audioManager.getStreamVolume(AudioManager.STREAM_VOICE_CALL)
-    if (currentVolume == volume) return
+    if (currentVolume >= volume) return
 
     val max = audioManager.getStreamMaxVolume(AudioManager.STREAM_VOICE_CALL)
     val min = audioManager.getStreamMinVolume(AudioManager.STREAM_VOICE_CALL)
