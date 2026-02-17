@@ -119,11 +119,13 @@ abstract class DialerActivity : ComponentActivity() {
                         context.voiceCall(it.phone, settingsData.autoOpenSpeaker)
                         hapticFeedback.performHapticFeedback(HapticFeedbackType.LongPress)
                         context.setCallVolume(settingsData.volume)
+                        moveTaskToBack(true)
                     },
                     onVideoCallRequest = {
                         context.videoCall(it.phone)
                         hapticFeedback.performHapticFeedback(HapticFeedbackType.LongPress)
                         context.setCallVolume(settingsData.volume)
+                        moveTaskToBack(true)
                     }
                 )
             }
