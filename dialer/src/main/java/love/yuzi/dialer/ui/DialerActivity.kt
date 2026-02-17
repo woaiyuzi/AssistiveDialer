@@ -125,6 +125,7 @@ abstract class DialerActivity : ComponentActivity() {
                         context.videoCall(it.phone)
                         hapticFeedback.performHapticFeedback(HapticFeedbackType.LongPress)
                         context.setCallVolume(settingsData.volume)
+                        // Dial back to the desktop
                         moveTaskToBack(true)
                     }
                 )
